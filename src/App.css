@@ -1,0 +1,107 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  width: 80%;
+  text-align: center;
+}
+
+label {
+  font-weight: bold;
+  margin-bottom: 8px;
+  display: block;
+  text-align: left;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+
+button {
+  background-color: #00c807 !important;
+  color: #ffffff;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 100%;
+  font-size: 1rem;
+}
+
+button:hover {
+  background-color: #006105 !important;
+}
+
+input:read-only {
+  background-color: #f0f0f0;
+}
+
+.hash {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+}
+
+.hash-address {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 2%;
+  justify-content: center;
+  align-items: center;
+}
+
+.hash-display {
+  font-family: 'Courier New', Courier, monospace;
+  padding: 12px;
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 80%;
+  word-break: break-all;
+  text-align: left;
+}
+.copy-button {
+  padding: 12px;
+  border: none;
+  width: 18%;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 500px) {
+  .container {
+    padding: 15px;
+    width: 90%;
+  }
+
+  button {
+    width: 100%;
+    padding: 12px;
+  }
+}
